@@ -25,7 +25,7 @@ pip install transformers[torch]
 ## Running the code
 
 We provide three separate scripts:
-* `python3 gpt2_apply.py`: This simply loads a pre-trained (general-purpose) GPT-2 model and generates some text with a Harry Potter themed prompt. The results are reasonable, but not optional. 
+* `python3 gpt2_apply.py`: This simply loads a pre-trained (general-purpose) GPT-2 model and generates some text with a Harry Potter themed prompt. The results are reasonable, but not optimal. 
 * `python3 gpt2_train.py`: This script fine-tunes the same model, by training on the data in `harrypotter.txt` for one epoch.
 * `python3 gpt2_test.py`: The test script is the evaluation script corresponding to `gpt2_train.py`. 
   * One option is to apply it to the checkpoints produced by `gpt2_train.py` in the folder `checkpoint_0/`. 
